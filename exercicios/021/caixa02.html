@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: aqua;
+            margin: 0px;
+        }
+
+        header {
+            background-color: azure;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 3px 3px 7px 1px darkslategray;
+        }
+
+        nav {
+            background-color: rgb(143, 143, 143);
+            padding: 3px;
+            box-shadow: 3px 3px 7px 1px darkslategray;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: azure;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 3px 3px 7px 1px darkslategray;
+        }
+
+        article {
+            background-color: lightgray;
+        }
+
+        article > aside {
+            background-color: rgb(143, 143, 143);
+        }
+
+        footer{ 
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 2px;
+            border: 0px;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            Esportes Politicas Tecnologia
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur aspernatur aut perspiciatis veniam ipsum, iste dolorem error libero dolore laudantium. Quaerat, vitae iure veritatis ut nobis cumque repellendus molestiae dolorem!</p>
+                <aside>
+                    <p>Artigo escrito por Fulano</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        Feito Por Felipe
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
