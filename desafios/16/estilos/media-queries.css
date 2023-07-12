@@ -15,6 +15,7 @@
 
     section#log {
         width: 80vw;
+        height: 280px;
     }
     section#log > div#img{
         float: left;
@@ -57,7 +58,8 @@
     }
 
     section#log {
-        width: 990px
+        width: 990px;
+        height: 350px;
     }
 
     section#log > div#img {
@@ -86,7 +88,45 @@
     }
 
     section#log {
-        width: 990px
+        width: 990px;
+        height: 350px;
+    }
+
+    form > div.campo {
+        background-color: #5f2c82;
+        border: 2px solid #5f2c82;
+        display: block;
+        width: 55%;
+        height: 40px;
+        border-radius: 8px;
+        margin: 5px 0px;
+    }
+
+    form > input[type=submit] {
+        display: block;
+        font-size: 1em;
+        width: 55%;
+        height: 40px;
+        margin-top: 5px;
+        background-color: #49a09d;
+        color: white;
+        border: none;
+        border-radius: 5px;
+    }
+
+    form > a.botao {
+        display: block;
+        text-align: center;
+        font-size: 1em;
+        width: 55%;
+        height: 40px;
+        margin-top: 5px;
+        padding-top: 7px;
+        background-color: white;
+        color: #2d6462;
+        border: 1px solid #49a09d;
+        border-radius: 5px;
+        text-decoration: none;
     }
 
     section#log > div#img {
